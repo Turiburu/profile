@@ -11,13 +11,14 @@ body {
 h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
 }
+
 h1 {
   color: #575F7D;
   font-size: 32px;
   font-weight: 900;
 }
 h2 {
-  color: #7ECE90;
+  color: rgb(66,77,98);
   font-size: 20px;
   font-weight: lighter;
   font-weight: 500;
@@ -30,7 +31,7 @@ a {
   font-size: 16px;
 }
 a:hover {
-  color: black;
+/*  color: black;*/
 }
 
 p {
@@ -39,10 +40,12 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    margin-bottom: 20px;
 }
 
 .img-circle {
     border-radius: 50%;
+    margin-bottom: 10px;
 }
 
 div {
@@ -67,10 +70,12 @@ div {
     text-align: center;
 }
 
-ul:hover {
-    -webkit-box-shadow: 0 0 1rem rgba(0,0,0,.6);
+.list-inline i:hover {
+    background-color: black;
+    color: white;
+    /*-webkit-box-shadow: 0 0 1rem rgba(0,0,0,.6);*/
     box-shadow: 0 0 1rem rgba(0,0,0,.6);
-    background-color: rgba(255,255,255,.25);
+    /*background-color: rgba(255,255,255,.25);*/
 }
 
 .container {
@@ -88,9 +93,16 @@ ul:hover {
     padding: 10px;
 }
 
-.btn-blue {
-    background-color: #6B72E1;
+.btn-red {
+    background-color: #fd1014;
     color: white;
+    padding: 10px 10px;
+    border-radius: 4px;
+}
+
+.btn-blue {
+    background-color: white;
+    color: lightgrey;
     padding: 10px 10px;
     border-radius: 4px;
 }
@@ -99,13 +111,13 @@ ul:hover {
     background-color: black;
     color: white;
 }
-
-li {
-  display: inline;
+.btn-red:hover {
+    background-color: black;
+    color: white;
 }
 
 .list-inline i {
-    font-size: 50px;
+    font-size: 30px;
     color: rgb(230, 230, 230);
 }
 
